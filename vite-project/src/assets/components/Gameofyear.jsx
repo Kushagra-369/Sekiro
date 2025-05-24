@@ -4,7 +4,16 @@ import { FaTrophy } from "react-icons/fa";
 
 export default function Gameofyear() {
     return (
-        <div className=' py-20' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrlCj7BMwT3rOeo0TrkxvvPz9Q4LbUZZmQrQ&s)', backgroundSize: "cover", backgroundRepeat:"no-repeat" }}>
+        <div className=' py-20 relative overflow-hidden' >
+            <div className="absolute top-0 left-0 w-full h-full -z-10">
+                <iframe
+                    className="w-full h-full object-cover"
+                    src="https://www.youtube.com/embed/7lkr4TksTX4?autoplay=1&mute=1&loop=1&playlist=7lkr4TksTX4&controls=0&showinfo=0&modestbranding=1"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                ></iframe>
+            </div>
             <div className=' px-25 text-white text-center'>
                 <h1>Bloodborne is a trademark of Sony Interactive Entertainment LLC. Dark Souls is a trademark of BANDAI NAMCO Entertainment Inc. Sony and Bandai Namco are not the publisher of SEKIRO: SHADOWS DIE TWICE. Activision has no affiliation with Elden Ring, Bloodborne, or Dark Souls.
 
