@@ -3,9 +3,9 @@ import image1 from '../images/sekiroimage.jpg'
 
 export default function Getnow() {
     return (
-        <div className=' flex ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxIyER1h58B-98CrYS2DkFXk4G50yeZNV1w&s)', backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: 'center', minHeight: '200vh' }}>
+        <div className='h-500 bg-black md:h-400 px-20 md:flex ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxIyER1h58B-98CrYS2DkFXk4G50yeZNV1w&s)', backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: 'center', minHeight: '200vh' }}>
 
-            <div className=' w-200 text-white px-70 py-50' >
+            <div className=' md:w-200 text-white  md:px-70 md:py-50' >
                 <h1 className=' w-110 p-3 text-center bg-gray-700 items-center text-6xl '>Available Now</h1>
                 <h1 className=' text-4xl py-15  px-10 '>Select an Edition</h1>
                 <div className=' px-10'>
@@ -52,7 +52,7 @@ export default function Getnow() {
                 </div>
             </div>
 
-            <div className="w-[500px] h-[600px] py-50 object-cover rounded-lg shadow-xl" >
+            <div className="w-[500px] h-[600px]  items-center   md:py-50 object-cover rounded-lg shadow-xl" >
                 <img   className="w-full max-w-md h-auto object-contain"  src={image1} alt="" />
                 <h1 className=' text-white py-10 text-2xl'>Download required for Bonus Content. Includes new boss challenge modes, player recordings, and unlockable skins. For more information click <a href="" className=' underline'>here</a>.</h1>
             </div>

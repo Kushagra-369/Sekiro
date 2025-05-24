@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="relative overflow-hidden ">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <iframe
-          className="w-full h-full object-cover"
+          className=" h-full w-full md:w-full md:h-full object-cover"
           src="https://www.youtube.com/embed/rXMX4YJ7Lks?autoplay=1&mute=1&loop=1&playlist=rXMX4YJ7Lks&controls=0&showinfo=0&modestbranding=1&rel=0"
           frameBorder="0"
           allow="autoplay; fullscreen"
@@ -59,10 +59,10 @@ export default function Navbar() {
 
           </div>
         </div>
-        <div className=' py-15 '>
+        <div className=' py-10 md:py-15 '>
 
-          <h1 className=' text-8xl'>SEKIRO</h1>
-          <h1 className=' text-yellow-400 text-center text-4xl'>SHADOW DIE TWICE</h1>
+          <h1 className= ' text-6xl md:text-8xl'>SEKIRO</h1>
+          <h1 className=' text-yellow-400 text-center text-2xl md:text-4xl'>SHADOW DIE TWICE</h1>
           <h1 className=' py-10 text-3xl'>Available Now</h1>
         </div>
 
