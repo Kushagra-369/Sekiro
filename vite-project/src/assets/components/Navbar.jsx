@@ -23,17 +23,17 @@ export default function Navbar() {
 
       <div className=' py-3'>
         <div className='  items-center flex justify-between bg-yellow-900 ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' }}>
-          <div className=' px-10 py-5'>
-            <h1 className='  text-6xl'>SEKIRO</h1>
-            <h1 className=' text-center text-2xl'>SHADOW DIE TWICE</h1>
+          <div className=' px-10 py-5 font-bold'>
+            <h1 className=' text-4xl md:text-6xl'>SEKIRO</h1>
+            <h1 className=' text-center md:text-2xl'>SHADOW DIE TWICE</h1>
           </div>
 
           <div className=' hidden  items-center text-white md:flex justify-center gap-20 text-4xl px-10 '>
             <a href=""><h1 >Gallery</h1></a>
             <a href=""><h1 className=' bg-red-600 p-3'>Get Now</h1></a>
           </div>
-          <div onClick={cross} className=' md:hidden block text-white text-4xl px-10 py-10'>
-            <div className=' bg-red-600 p-5 w-30 flex justify-center'>
+          <div onClick={cross} className=' md:hidden block text-white text-2xl px-15 py-10'>
+            <div className=' bg-red-600 p-5 w-20  flex justify-center'>
               {text ? <ImCross /> : <FaBars />}
             </div>
           </div>
