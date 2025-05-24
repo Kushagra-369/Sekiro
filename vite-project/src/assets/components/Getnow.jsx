@@ -6,7 +6,7 @@ export default function Getnow() {
         <div className='h-500 bg-black md:h-400 px-20 md:flex ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxIyER1h58B-98CrYS2DkFXk4G50yeZNV1w&s)', backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: 'center', minHeight: '200vh' }}>
 
             <div className=' md:w-200 text-white  md:px-70 md:py-50' >
-                <h1 className=' w-110 p-3 text-center bg-gray-700 items-center text-4xl md:text-6xl '>Available Now</h1>
+                <h1 className=' w-55 md:w-110 p-3 text-center bg-gray-700 items-center text-4xl md:text-6xl '>Available Now</h1>
                 <h1 className=' text-4xl py-15  px-10 '>Select an Edition</h1>
                 <div className=' px-10'>
                     <select className="text-white text-xl p-3 rounded-md px-5  bg-black w-50 md:w-100 "
