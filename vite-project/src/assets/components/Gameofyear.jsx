@@ -26,15 +26,15 @@ export default function Gameofyear() {
                 </div>
 
 
-                <div className=' text-white px-30'>
-                    <h1 className='  text-9xl'>SEKIRO</h1>
-                    <h1 className='  text-4xl py-2'>SHADOW DIE TWICE</h1>
+                <div className=' text-center text-white px-30'>
+                    <h1 className=' text-6xl md:text-9xl'>SEKIRO</h1>
+                    <h1 className='text-xl  md:text-4xl py-2'>SHADOW DIE TWICE</h1>
 
-                    <div className=' w-100 text-2xl text-center md:block py-30'>
+                    <div className=' w-full text-2xl text-center md:block py-30'>
                         <h1>Carve your own clever path to vengeance in the award-winning adventure from developer FromSoftware, creators of Elden Ring, Bloodborne, and the Dark Souls series.</h1>
 
                     </div>
-                    <div className=' text-6xl'>
+                    <div className='text-4xl md:text-6xl'>
                         <h1>GAME OF THE YEAR</h1>
                     </div>
 

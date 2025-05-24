@@ -4,7 +4,7 @@ export default function Revenge() {
   return (
     <div className=' bg-black py-20 '>
         
-        <div className=' text-6xl px-15 text-center text-yellow-600 '>
+        <div className='text-4xl md:text-6xl px-15 text-center text-yellow-600 '>
             <h1>TAKE REVENGE. RESTORE YOUR HONOR. KILL INGENIOUSLY.</h1>
         </div>
 
