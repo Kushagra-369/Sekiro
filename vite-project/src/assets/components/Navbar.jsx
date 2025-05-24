@@ -39,7 +39,7 @@ export default function Navbar() {
           </div>
           {
             text && (
-              <ul className=' text-center text-4xl  md:hidden fixed top-50 h-90  left-10 right-10 text-white p-10 z-40 shadow-lg transition-all duration-300' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' }}>
+              <ul className=' text-center text-4xl w-fit  md:hidden fixed top-50 h-90  left-10 right-10 text-white p-10 z-40 shadow-lg transition-all duration-300' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' }}>
                 <a href=""><h1 >Gallery</h1></a>
                 <div className=' flex justify-center py-20'>
                   <a href=""><h1 className='  w-50 bg-red-600 p-5 rounded-4xl '>Get Now</h1></a>
