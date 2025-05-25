@@ -11,7 +11,7 @@ export default function Navbar() {
     settext(!text);
   }
   return (
-    <div className="relative  ">
+    <div className="relative w-full  ">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <iframe
           className=" h-full w-full md:w-full md:h-full object-cover"
