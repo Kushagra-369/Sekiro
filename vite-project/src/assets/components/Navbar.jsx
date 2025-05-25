@@ -14,7 +14,7 @@ export default function Navbar() {
     <div className="relative w-full  ">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <iframe
-          className=" h-full w-full md:w-full md:h-full object-cover"
+          className=" h-full w-full  object-cover"
           src="https://www.youtube.com/embed/rXMX4YJ7Lks?autoplay=1&mute=1&loop=1&playlist=rXMX4YJ7Lks&controls=0&showinfo=0&modestbranding=1&rel=0"
           frameBorder="0"
           allow="autoplay; fullscreen"
@@ -24,7 +24,7 @@ export default function Navbar() {
 
 
       <div className=' py-3'>
-        <div className='  items-center flex justify-between bg-yellow-900 ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' }}>
+        <div className='  items-center flex justify-between  ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' }}>
           <div className=' px-10 py-5 font-bold'>
             <h1 className=' text-white text-4xl md:text-6xl'>SEKIRO</h1>
             <h1 className='  text-center md:text-2xl'>SHADOW DIE TWICE</h1>
