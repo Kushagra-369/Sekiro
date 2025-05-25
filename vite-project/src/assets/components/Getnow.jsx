@@ -1,9 +1,11 @@
 import React from 'react'
 import image1 from '../images/sekiroimage.jpg'
+import { Link, Element } from 'react-scroll';
 
 export default function Getnow() {
     return (
-        <div className='h-500 bg-black md:h-400 px-20 md:flex ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxIyER1h58B-98CrYS2DkFXk4G50yeZNV1w&s)', backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: 'center', minHeight: '200vh' }}>
+       <Element name = "get">
+         <div className='h-500 bg-black md:h-400 px-20 md:flex ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxIyER1h58B-98CrYS2DkFXk4G50yeZNV1w&s)', backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: 'center', minHeight: '200vh' }}>
 
             <div className=' md:w-200 text-white  md:px-70 md:py-50' >
                 <h1 className=' w-55 md:w-110 p-3 text-center bg-gray-700 items-center text-4xl md:text-6xl '>Available Now</h1>
@@ -47,7 +49,7 @@ export default function Getnow() {
                     </select>
                 </div>
                 <div className=' items-center px-10 text-2xl py-20 '>
-                    <a href=""><h1 className=' text-white w-50 md:w-100 text-center bg-red-600 p-3'>Get Now</h1></a>
+                    <a href="https://www.amazon.com/Sekiro-Shadows-Die-Twice-PlayStation-4/dp/B07DJWBYJN/ref=sr_1_1?dchild=1&keywords=sekiro+shadows+die+twice&qid=1600879301&sr=8-1"><h1 className=' text-white w-50 md:w-100 text-center bg-red-600 p-3'>Get Now</h1></a>
 
                 </div>
             </div>
@@ -58,5 +60,6 @@ export default function Getnow() {
             </div>
 
         </div>
+       </Element>
     )
 }

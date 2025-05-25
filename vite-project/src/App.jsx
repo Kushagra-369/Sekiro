@@ -6,6 +6,7 @@ import Gameofyear from './assets/components/Gameofyear'
 import Revenge from './assets/components/Revenge'
 import Getnow from './assets/components/Getnow'
 import Enemies from './assets/components/Enemies'
+import Connected from './assets/components/Connected'
 export default function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ export default function App() {
       </BrowserRouter>
       <Enemies/>
       <Gallery/>
+      <Connected/>
     </div>
   )
 }
