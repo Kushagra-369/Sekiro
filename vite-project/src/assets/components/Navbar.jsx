@@ -61,7 +61,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className=' text-white text-center py-10 text-2xl'>
+      <div className=' text-white text-center py-10 px-10 text-2xl'>
         <h1 >FROM THE DEVELOPER OF ELDEN RING ,</h1>
         <h1 className=' py-2'> BLOODBORNE , & DARK SOULS</h1>
         <div className=' flex justify-center py-5'>
