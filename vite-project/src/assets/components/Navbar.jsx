@@ -11,7 +11,7 @@ export default function Navbar() {
     settext(!text);
   }
   return (
-    <div className="relative overflow-hidden ">
+    <div className="relative  ">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <iframe
           className=" h-full w-full md:w-full md:h-full object-cover"
@@ -26,8 +26,8 @@ export default function Navbar() {
       <div className=' py-3'>
         <div className='  items-center flex justify-between bg-yellow-900 ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' }}>
           <div className=' px-10 py-5 font-bold'>
-            <h1 className=' text-4xl md:text-6xl'>SEKIRO</h1>
-            <h1 className=' text-center md:text-2xl'>SHADOW DIE TWICE</h1>
+            <h1 className=' text-white text-4xl md:text-6xl'>SEKIRO</h1>
+            <h1 className='  text-center md:text-2xl'>SHADOW DIE TWICE</h1>
           </div>
 
           <div className=' hidden  items-center text-white md:flex justify-center gap-20 text-4xl px-10 '>

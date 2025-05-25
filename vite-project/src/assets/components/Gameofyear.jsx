@@ -5,9 +5,9 @@ import { FaTrophy } from "react-icons/fa";
 export default function Gameofyear() {
     return (
         <div className=' py-20 relative overflow-hidden' >
-            <div className="absolute top-0 left-0 w-full h-full -z-10">
+            <div className="absolute top-0 left-0 w-full h-full md:h-full -z-10">
                 <iframe
-                    className="w-full h-full object-cover"
+                    className="w-full h-full md:h-full object-cover"
                     src="https://www.youtube.com/embed/7lkr4TksTX4?autoplay=1&mute=1&loop=1&playlist=7lkr4TksTX4&controls=0&showinfo=0&modestbranding=1"
                     frameBorder="0"
                     allow="autoplay; fullscreen"
@@ -26,11 +26,11 @@ export default function Gameofyear() {
                 </div>
 
 
-                <div className=' text-center text-white px-30'>
+                <div className=' text-center text-white px-10 md:px-30'>
                     <h1 className=' text-6xl md:text-9xl'>SEKIRO</h1>
                     <h1 className='text-xl  md:text-4xl py-2'>SHADOW DIE TWICE</h1>
 
-                    <div className=' w-full text-2xl text-center md:block py-30'>
+                    <div className=' w-full text-2xl text-center md:block py-15 md:py-30'>
                         <h1>Carve your own clever path to vengeance in the award-winning adventure from developer FromSoftware, creators of Elden Ring, Bloodborne, and the Dark Souls series.</h1>
 
                     </div>
