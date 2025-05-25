@@ -23,7 +23,7 @@ export default function Navbar() {
       </div>
 
 
-      <div className=' py-3'>
+      <div className=' w-full py-3'>
         <div className='  items-center flex justify-between  ' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' }}>
           <div className=' px-10 py-5 font-bold'>
             <h1 className=' text-white text-4xl md:text-6xl'>SEKIRO</h1>
