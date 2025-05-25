@@ -5,6 +5,7 @@ import Gallery from './assets/components/Gallery'
 import Gameofyear from './assets/components/Gameofyear'
 import Revenge from './assets/components/Revenge'
 import Getnow from './assets/components/Getnow'
+import Enemies from './assets/components/Enemies'
 export default function App() {
   return (
     <div>
@@ -15,6 +16,8 @@ export default function App() {
       <Revenge/>
       <Getnow/>
       </BrowserRouter>
+      <Enemies/>
+      <Gallery/>
     </div>
   )
 }
