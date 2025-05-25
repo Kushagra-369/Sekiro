@@ -13,12 +13,12 @@ export default function App() {
       <BrowserRouter>
       
       <Navbar/>
-      {/* <Gameofyear/>
+      <Gameofyear/>
       <Revenge/>
       <Getnow/>
       <Enemies/>
       <Gallery/>
-      <Connected/> */}
+      <Connected/>
       </BrowserRouter>
     </div>
   )
