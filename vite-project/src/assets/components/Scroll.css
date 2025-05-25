@@ -1,0 +1,8 @@
+.scroll-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Enables momentum scroll on iOS */
+  gap: 1rem; /* optional: spacing between images */
+  padding: 1rem;
+}

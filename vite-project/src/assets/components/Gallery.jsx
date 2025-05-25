@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../components/Scroll.css'
 export default function Gallery() {
 
   const data =[
@@ -17,9 +17,9 @@ export default function Gallery() {
   return (
     <div className=' w-full min-h-screen' >
             <div className=' bg-blue-950 flex justify-center py-20 text-white'>
-                <h1 className=' text-6xl bg-black p-5'>GALLERY </h1>
+                <h1 className='text-4xl md:text-6xl bg-black p-5'>GALLERY </h1>
             </div>
-            <div className="scroll-container  " style={{scrollBehavior:"smooth" , background: ' url(https://c4.wallpaperflare.com/wallpaper/310/302/397/sekiro-shadows-die-twice-samurai-video-games-video-game-art-watermarked-hd-wallpaper-preview.jpg)' , backgroundSize:"cover" , backgroundRepeat:"no-repeat" ,  minHeight: '100vh'}}>
+            <div className="scroll-container " style={{scrollBehavior:"smooth" , background: ' url(https://c4.wallpaperflare.com/wallpaper/310/302/397/sekiro-shadows-die-twice-samurai-video-games-video-game-art-watermarked-hd-wallpaper-preview.jpg)' , backgroundSize:"cover" , backgroundRepeat:"no-repeat" ,  minHeight: '100vh'}}>
             {data.map(enemy => (
                 <img key={enemy.id} src={enemy.img} alt={`Enemy ${enemy.id}`} className="h-100 md:h-150 w-100 md:w-250 " />
             ))}

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../components/Scroll.css'
 
 
 export default function Enemies() {
@@ -18,9 +19,9 @@ export default function Enemies() {
     return (
         <div className=' w-full min-h-screen' style={{ background: ' url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlfDFYGT2-kLi9ky9bwIZk8g5UA5c_1zFKg&s)' , backgroundSize:"cover" , backgroundRepeat:"no-repeat" }}>
             <div className=' flex justify-center py-30 text-white'>
-                <h1 className=' text-6xl bg-black p-5'>Enemy Featurettes</h1>
+                <h1 className=' text-4xl md:text-6xl bg-black p-5'>Enemy Featurettes</h1>
             </div>
-            <div className="scroll-container  "  style={{scrollBehavior:"smooth"}}>
+            <div className="scroll-container "  style={{scrollBehavior:"smooth"}}>
             {data.map(enemy => (
                 <img key={enemy.id} src={enemy.img} alt={`Enemy ${enemy.id}`} className=" h-75 md:h-100 w-75 md:w-100 " />
             ))}
